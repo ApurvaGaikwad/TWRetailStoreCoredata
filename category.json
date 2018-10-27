@@ -1,0 +1,39 @@
+[{
+    "CategoryID" : "1",
+    "CategoryName" : "Electronics",
+    
+    "products" : [{"productName" : "Microwave oven",
+        "price" : "989",
+        "url" : "6"
+    },
+    {"productName" : "Television",
+        "price" : "23244",
+        "url" : "5"
+    },
+    {"productName" : "Vacuum Cleaner",
+        "price" : "4500",
+        "url" : "2"
+    }]
+    
+},
+{
+    "CategoryID" : "2",
+    "CategoryName" : "Furniture",
+    "url" : "",
+    "products" : [{"productName" : "Table",
+        "price" : "2600",
+        "url" : "3"
+    },
+    {"productName" : "Chair",
+        "price" : "900",
+        "url" : "4"
+    },
+    {"productName" : "Almirah",
+        "price" : "15000",
+        "url" : "1"
+    }]
+    
+}
+]
+ 
+

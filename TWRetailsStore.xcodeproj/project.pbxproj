@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294C2DC09C7F95E1D148CE0B /* Pods_TWRetailsStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA66E7FB26B63F3C49B3341 /* Pods_TWRetailsStoreTests.framework */; };
 		680A6B35218206BA00DCC205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B34218206BA00DCC205 /* AppDelegate.m */; };
 		680A6B38218206BA00DCC205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B37218206BA00DCC205 /* ViewController.m */; };
 		680A6B3B218206BA00DCC205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A6B39218206BA00DCC205 /* Main.storyboard */; };
@@ -16,6 +17,20 @@
 		680A6B46218206BB00DCC205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B45218206BB00DCC205 /* main.m */; };
 		680A6B50218206BB00DCC205 /* TWRetailsStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B4F218206BB00DCC205 /* TWRetailsStoreTests.m */; };
 		680A6B5B218206BB00DCC205 /* TWRetailsStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B5A218206BB00DCC205 /* TWRetailsStoreUITests.m */; };
+		680A6B6C2182072900DCC205 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B6B2182072900DCC205 /* HomeVC.m */; };
+		680A6B702182074200DCC205 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B6F2182074200DCC205 /* HomeCell.m */; };
+		680A6B74218207FD00DCC205 /* baseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B73218207FD00DCC205 /* baseController.m */; };
+		680A6B7A2182145A00DCC205 /* ProductListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B792182145A00DCC205 /* ProductListVC.m */; };
+		680A6B7E2182147600DCC205 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B7D2182147600DCC205 /* ProductCell.m */; };
+		680A6B8221821A4400DCC205 /* ProductDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B8121821A4400DCC205 /* ProductDetailVC.m */; };
+		680A6B8721821DBB00DCC205 /* CartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B8621821DBB00DCC205 /* CartVC.m */; };
+		680A6B8E21821DE600DCC205 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 680A6B8D21821DE600DCC205 /* CartCell.m */; };
+		681559D921830037003C1C98 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 681559D821830037003C1C98 /* category.json */; };
+		681559DC21831537003C1C98 /* RetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 681559DB21831537003C1C98 /* RetailModel.m */; };
+		68B99AB02182426000ABA868 /* RetailModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B99AAF2182426000ABA868 /* RetailModelObject.m */; };
+		68E9B46C21838488009AFCD3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E9B46B21838488009AFCD3 /* UIView+Toast.m */; };
+		8518167B23A42889F708A93C /* Pods_TWRetailsStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09A71BD159DECF15664AF80 /* Pods_TWRetailsStore.framework */; };
+		B027730B7A38C4F24F7AA3C6 /* Pods_TWRetailsStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C19B84A06ED6A096E9ACF3 /* Pods_TWRetailsStoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D09A59E3D51B2B13AAB4B87 /* Pods-TWRetailsStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStoreUITests/Pods-TWRetailsStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		143A390F77C4E9AA4DDFC51B /* Pods-TWRetailsStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStoreUITests/Pods-TWRetailsStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42C19B84A06ED6A096E9ACF3 /* Pods_TWRetailsStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWRetailsStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E742C68183AA72947B172B8 /* Pods-TWRetailsStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStore/Pods-TWRetailsStore.release.xcconfig"; sourceTree = "<group>"; };
+		4FA66E7FB26B63F3C49B3341 /* Pods_TWRetailsStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWRetailsStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6709EE331233D371FBB5CE39 /* Pods-TWRetailsStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStoreTests/Pods-TWRetailsStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		680A6B30218206BA00DCC205 /* TWRetailsStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWRetailsStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680A6B33218206BA00DCC205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		680A6B34218206BA00DCC205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +74,33 @@
 		680A6B56218206BB00DCC205 /* TWRetailsStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWRetailsStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680A6B5A218206BB00DCC205 /* TWRetailsStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWRetailsStoreUITests.m; sourceTree = "<group>"; };
 		680A6B5C218206BB00DCC205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680A6B6A2182072900DCC205 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		680A6B6B2182072900DCC205 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		680A6B6E2182074200DCC205 /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		680A6B6F2182074200DCC205 /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		680A6B72218207FD00DCC205 /* baseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseController.h; sourceTree = "<group>"; };
+		680A6B73218207FD00DCC205 /* baseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseController.m; sourceTree = "<group>"; };
+		680A6B7521820A5100DCC205 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		680A6B782182145A00DCC205 /* ProductListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListVC.h; sourceTree = "<group>"; };
+		680A6B792182145A00DCC205 /* ProductListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListVC.m; sourceTree = "<group>"; };
+		680A6B7C2182147600DCC205 /* ProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		680A6B7D2182147600DCC205 /* ProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		680A6B8021821A4400DCC205 /* ProductDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductDetailVC.h; sourceTree = "<group>"; };
+		680A6B8121821A4400DCC205 /* ProductDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductDetailVC.m; sourceTree = "<group>"; };
+		680A6B8521821DBB00DCC205 /* CartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartVC.h; sourceTree = "<group>"; };
+		680A6B8621821DBB00DCC205 /* CartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartVC.m; sourceTree = "<group>"; };
+		680A6B8C21821DE600DCC205 /* CartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		680A6B8D21821DE600DCC205 /* CartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		681559D821830037003C1C98 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		681559DA21831537003C1C98 /* RetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetailModel.h; sourceTree = "<group>"; };
+		681559DB21831537003C1C98 /* RetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetailModel.m; sourceTree = "<group>"; };
+		68B99AAE2182426000ABA868 /* RetailModelObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetailModelObject.h; sourceTree = "<group>"; };
+		68B99AAF2182426000ABA868 /* RetailModelObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetailModelObject.m; sourceTree = "<group>"; };
+		68E9B46A21838488009AFCD3 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		68E9B46B21838488009AFCD3 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		7113C8359BAA24E2C69AA117 /* Pods-TWRetailsStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStore/Pods-TWRetailsStore.debug.xcconfig"; sourceTree = "<group>"; };
+		A057F8D2F69FAACD78E56642 /* Pods-TWRetailsStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWRetailsStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWRetailsStoreTests/Pods-TWRetailsStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		A09A71BD159DECF15664AF80 /* Pods_TWRetailsStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWRetailsStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8518167B23A42889F708A93C /* Pods_TWRetailsStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294C2DC09C7F95E1D148CE0B /* Pods_TWRetailsStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B027730B7A38C4F24F7AA3C6 /* Pods_TWRetailsStoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +134,13 @@
 		680A6B27218206BA00DCC205 = {
 			isa = PBXGroup;
 			children = (
+				681559D821830037003C1C98 /* category.json */,
 				680A6B32218206BA00DCC205 /* TWRetailsStore */,
 				680A6B4E218206BB00DCC205 /* TWRetailsStoreTests */,
 				680A6B59218206BB00DCC205 /* TWRetailsStoreUITests */,
 				680A6B31218206BA00DCC205 /* Products */,
+				7B7A8F04750BDD40A96DC195 /* Pods */,
+				A0CE6D0CFE87024857DBCAD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +157,10 @@
 		680A6B32218206BA00DCC205 /* TWRetailsStore */ = {
 			isa = PBXGroup;
 			children = (
+				680A6B7621820AD000DCC205 /* Predefineheader */,
+				68E9B4682183846C009AFCD3 /* Categories */,
+				68B99AAA21823D7E00ABA868 /* ModelObject */,
+				680A6B68218206F600DCC205 /* ViewControllers */,
 				680A6B33218206BA00DCC205 /* AppDelegate.h */,
 				680A6B34218206BA00DCC205 /* AppDelegate.m */,
 				680A6B36218206BA00DCC205 /* ViewController.h */,
@@ -135,6 +193,152 @@
 			path = TWRetailsStoreUITests;
 			sourceTree = "<group>";
 		};
+		680A6B68218206F600DCC205 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B71218207E100DCC205 /* BaseController */,
+				680A6B692182070600DCC205 /* HomeCategoryScreen */,
+				680A6B772182142C00DCC205 /* ProductList */,
+				680A6B7F21821A1200DCC205 /* ProductDetailScreen */,
+				680A6B8421821DA400DCC205 /* CartVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		680A6B692182070600DCC205 /* HomeCategoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B6D2182072E00DCC205 /* HomeCell */,
+				680A6B6A2182072900DCC205 /* HomeVC.h */,
+				680A6B6B2182072900DCC205 /* HomeVC.m */,
+			);
+			path = HomeCategoryScreen;
+			sourceTree = "<group>";
+		};
+		680A6B6D2182072E00DCC205 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B6E2182074200DCC205 /* HomeCell.h */,
+				680A6B6F2182074200DCC205 /* HomeCell.m */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		680A6B71218207E100DCC205 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B72218207FD00DCC205 /* baseController.h */,
+				680A6B73218207FD00DCC205 /* baseController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		680A6B7621820AD000DCC205 /* Predefineheader */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B7521820A5100DCC205 /* header.h */,
+			);
+			path = Predefineheader;
+			sourceTree = "<group>";
+		};
+		680A6B772182142C00DCC205 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B7B2182145E00DCC205 /* ProductCell */,
+				680A6B782182145A00DCC205 /* ProductListVC.h */,
+				680A6B792182145A00DCC205 /* ProductListVC.m */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		680A6B7B2182145E00DCC205 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B7C2182147600DCC205 /* ProductCell.h */,
+				680A6B7D2182147600DCC205 /* ProductCell.m */,
+			);
+			path = ProductCell;
+			sourceTree = "<group>";
+		};
+		680A6B7F21821A1200DCC205 /* ProductDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B8021821A4400DCC205 /* ProductDetailVC.h */,
+				680A6B8121821A4400DCC205 /* ProductDetailVC.m */,
+			);
+			path = ProductDetailScreen;
+			sourceTree = "<group>";
+		};
+		680A6B8421821DA400DCC205 /* CartVC */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B8821821DBF00DCC205 /* CartCell */,
+				680A6B8521821DBB00DCC205 /* CartVC.h */,
+				680A6B8621821DBB00DCC205 /* CartVC.m */,
+			);
+			path = CartVC;
+			sourceTree = "<group>";
+		};
+		680A6B8821821DBF00DCC205 /* CartCell */ = {
+			isa = PBXGroup;
+			children = (
+				680A6B8C21821DE600DCC205 /* CartCell.h */,
+				680A6B8D21821DE600DCC205 /* CartCell.m */,
+			);
+			path = CartCell;
+			sourceTree = "<group>";
+		};
+		68B99AAA21823D7E00ABA868 /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				68B99AAE2182426000ABA868 /* RetailModelObject.h */,
+				68B99AAF2182426000ABA868 /* RetailModelObject.m */,
+				681559DA21831537003C1C98 /* RetailModel.h */,
+				681559DB21831537003C1C98 /* RetailModel.m */,
+			);
+			path = ModelObject;
+			sourceTree = "<group>";
+		};
+		68E9B4682183846C009AFCD3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				68E9B46921838488009AFCD3 /* UIView+Toast */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		68E9B46921838488009AFCD3 /* UIView+Toast */ = {
+			isa = PBXGroup;
+			children = (
+				68E9B46A21838488009AFCD3 /* UIView+Toast.h */,
+				68E9B46B21838488009AFCD3 /* UIView+Toast.m */,
+			);
+			path = "UIView+Toast";
+			sourceTree = "<group>";
+		};
+		7B7A8F04750BDD40A96DC195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7113C8359BAA24E2C69AA117 /* Pods-TWRetailsStore.debug.xcconfig */,
+				4E742C68183AA72947B172B8 /* Pods-TWRetailsStore.release.xcconfig */,
+				6709EE331233D371FBB5CE39 /* Pods-TWRetailsStoreTests.debug.xcconfig */,
+				A057F8D2F69FAACD78E56642 /* Pods-TWRetailsStoreTests.release.xcconfig */,
+				143A390F77C4E9AA4DDFC51B /* Pods-TWRetailsStoreUITests.debug.xcconfig */,
+				0D09A59E3D51B2B13AAB4B87 /* Pods-TWRetailsStoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0CE6D0CFE87024857DBCAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09A71BD159DECF15664AF80 /* Pods_TWRetailsStore.framework */,
+				4FA66E7FB26B63F3C49B3341 /* Pods_TWRetailsStoreTests.framework */,
+				42C19B84A06ED6A096E9ACF3 /* Pods_TWRetailsStoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680A6B5F218206BB00DCC205 /* Build configuration list for PBXNativeTarget "TWRetailsStore" */;
 			buildPhases = (
+				ACE8A1E403DFC4AB041CD3C7 /* [CP] Check Pods Manifest.lock */,
 				680A6B2C218206BA00DCC205 /* Sources */,
 				680A6B2D218206BA00DCC205 /* Frameworks */,
 				680A6B2E218206BA00DCC205 /* Resources */,
+				255A8AAA116F488999CA7575 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680A6B62218206BB00DCC205 /* Build configuration list for PBXNativeTarget "TWRetailsStoreTests" */;
 			buildPhases = (
+				D78A864BC6AE8C3ACE9CD7EE /* [CP] Check Pods Manifest.lock */,
 				680A6B47218206BB00DCC205 /* Sources */,
 				680A6B48218206BB00DCC205 /* Frameworks */,
 				680A6B49218206BB00DCC205 /* Resources */,
@@ -177,6 +384,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 680A6B65218206BB00DCC205 /* Build configuration list for PBXNativeTarget "TWRetailsStoreUITests" */;
 			buildPhases = (
+				A7204CC822079147295D65B9 /* [CP] Check Pods Manifest.lock */,
 				680A6B52218206BB00DCC205 /* Sources */,
 				680A6B53218206BB00DCC205 /* Frameworks */,
 				680A6B54218206BB00DCC205 /* Resources */,
@@ -241,6 +449,7 @@
 				680A6B43218206BB00DCC205 /* LaunchScreen.storyboard in Resources */,
 				680A6B40218206BB00DCC205 /* Assets.xcassets in Resources */,
 				680A6B3B218206BA00DCC205 /* Main.storyboard in Resources */,
+				681559D921830037003C1C98 /* category.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +469,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255A8AAA116F488999CA7575 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TWRetailsStore/Pods-TWRetailsStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BBBadgeBarButtonItem/BBBadgeBarButtonItem.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BBBadgeBarButtonItem.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWRetailsStore/Pods-TWRetailsStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7204CC822079147295D65B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TWRetailsStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE8A1E403DFC4AB041CD3C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TWRetailsStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78A864BC6AE8C3ACE9CD7EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TWRetailsStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		680A6B2C218206BA00DCC205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B99AB02182426000ABA868 /* RetailModelObject.m in Sources */,
+				680A6B7A2182145A00DCC205 /* ProductListVC.m in Sources */,
+				680A6B702182074200DCC205 /* HomeCell.m in Sources */,
+				68E9B46C21838488009AFCD3 /* UIView+Toast.m in Sources */,
 				680A6B3E218206BA00DCC205 /* TWRetailsStore.xcdatamodeld in Sources */,
+				680A6B8E21821DE600DCC205 /* CartCell.m in Sources */,
 				680A6B38218206BA00DCC205 /* ViewController.m in Sources */,
 				680A6B46218206BB00DCC205 /* main.m in Sources */,
+				680A6B8221821A4400DCC205 /* ProductDetailVC.m in Sources */,
+				680A6B7E2182147600DCC205 /* ProductCell.m in Sources */,
+				680A6B8721821DBB00DCC205 /* CartVC.m in Sources */,
+				680A6B6C2182072900DCC205 /* HomeVC.m in Sources */,
+				680A6B74218207FD00DCC205 /* baseController.m in Sources */,
 				680A6B35218206BA00DCC205 /* AppDelegate.m in Sources */,
+				681559DC21831537003C1C98 /* RetailModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,16 +734,18 @@
 		};
 		680A6B60218206BB00DCC205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7113C8359BAA24E2C69AA117 /* Pods-TWRetailsStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NTFUBNL2GH;
 				INFOPLIST_FILE = TWRetailsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Apurva.TWRetailsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.TWRetailStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,16 +753,18 @@
 		};
 		680A6B61218206BB00DCC205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E742C68183AA72947B172B8 /* Pods-TWRetailsStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NTFUBNL2GH;
 				INFOPLIST_FILE = TWRetailsStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Apurva.TWRetailsStore;
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.TWRetailStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +772,7 @@
 		};
 		680A6B63218206BB00DCC205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6709EE331233D371FBB5CE39 /* Pods-TWRetailsStoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +792,7 @@
 		};
 		680A6B64218206BB00DCC205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A057F8D2F69FAACD78E56642 /* Pods-TWRetailsStoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +812,7 @@
 		};
 		680A6B66218206BB00DCC205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143A390F77C4E9AA4DDFC51B /* Pods-TWRetailsStoreUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NTFUBNL2GH;
@@ -527,6 +831,7 @@
 		};
 		680A6B67218206BB00DCC205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D09A59E3D51B2B13AAB4B87 /* Pods-TWRetailsStoreUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NTFUBNL2GH;

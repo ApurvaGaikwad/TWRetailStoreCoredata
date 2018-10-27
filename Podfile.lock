@@ -1,0 +1,20 @@
+PODS:
+  - BBBadgeBarButtonItem (1.2)
+  - JSONModel (1.8.0)
+
+DEPENDENCIES:
+  - BBBadgeBarButtonItem
+  - JSONModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BBBadgeBarButtonItem
+    - JSONModel
+
+SPEC CHECKSUMS:
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+
+PODFILE CHECKSUM: afa692d2de406ad41b77dd934994196a60a00949
+
+COCOAPODS: 1.5.3
